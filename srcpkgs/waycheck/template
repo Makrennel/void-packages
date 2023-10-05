@@ -1,0 +1,14 @@
+# Template file for 'waycheck'
+pkgname=waycheck
+version=0.2.0
+revision=1
+build_style="meson"
+hostmakedepends="pkg-config"
+makedepends="qt6-wayland-devel"
+depends="hicolor-icon-theme qt6-wayland wayland"
+short_desc="Simple GUI displaying the protocols a Wayland compositor implements"
+maintainer="Makrennel <makrommel@protonmail.ch>"
+license="Apache-2.0"
+homepage="https://gitlab.freedesktop.org/serebit/${pkgname}"
+distfiles="${homepage}/-/archive/v${version}/${pkgname}-v${version}.tar.gz"
+checksum=d8225623638547ed450d2e15f9b3493e7c3e536c1b9d2102db5600eb6e3e970e
